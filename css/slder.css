@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:wght@100;200;300;500;700&display=swap');
+
+        body{
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        } */
+
+        .slider-wrapper{
+            width:  100%;
+        }
+
+        .slider-wrapper .slider-box{
+            max-width: 1200px;
+            padding: 0 30px;
+            margin: auto;
+        }
+
+        .slider-box .card{
+            background-color: bisque;
+            height: 450px;
+            margin: 20px 0;
+            border-radius: 2rem;
+            
+        }
+        /* .slider-box .card img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 2rem;
+        } */
+
+        .card.card1{
+            background: url(../images/college5.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card.card2{
+            background: url(../images/college.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .card.card3{
+            background: url(../images/college2.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .card.card4{
+            background: url(../images/college3.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .card.card5{
+            background: url(../images/college4.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .card.card6{
+            background: url(../images/college8.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .owl-dots{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .owl-dot{
+            height: 15px;
+            width: 45px;
+            border-radius: 25px;
+            cursor: pointer;
+            outline: none;
+            margin: 0 5px;
+            border: 2px solid #0072bc !important;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .owl-dot:hover,
+        .owl-dot.active{
+            background-color: rgb(48, 124, 231) !important;
+        }
+
+        /* Media Query */
+
+        @media (max-width : 450px){
+            .slider-box .card{
+                height: 350px;  
+                border-radius: 0px; 
+            }
+        }
